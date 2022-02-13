@@ -143,7 +143,7 @@ async def start(client, message):
                     logger.exception(e)
                     f_caption=f_caption
             if f_caption is None:
-        f_caption = f"{files.file_name}"
+        if_caption = f"{files.file_name}"
     buttons = [
         [
             InlineKeyboardButton('𝐺𝑟𝑜𝑢𝑝', url='https://t.me/Cinemaenglish123'),
