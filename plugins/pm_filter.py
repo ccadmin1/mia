@@ -392,6 +392,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
             f_caption = f_caption
         if f_caption is None:
             f_caption = f"{files.file_name}"
+        buttons = [
+            [
+                InlineKeyboardButton('𝐺𝑟𝑜𝑢𝑝', url='https://t.me/cinemaenglish123'),
+                InlineKeyboardButton('𝐷𝑒𝑣', url='https://t.me/Abhisheksvlog')
+            ],
+            [
+                InlineKeyboardButton('𝐶𝒉𝑎𝑛𝑛𝑒𝑙', url=f'https://t.me/justaupdatechannel')
+            ]
+            ]
 
         try:
             if AUTH_CHANNEL and not await is_subscribed(client, query):
@@ -436,6 +445,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 f_caption = f_caption
         if f_caption is None:
             f_caption = f"{title}"
+        buttons = [
+            [
+                InlineKeyboardButton('𝐺𝑟𝑜𝑢𝑝', url='https://t.me/cinemaenglish123'),
+                InlineKeyboardButton('𝐷𝑒𝑣', url='https://t.me/Abhisheksvlog')
+            ],
+            [
+                InlineKeyboardButton('𝐶𝒉𝑎𝑛𝑛𝑒𝑙', url=f'https://t.me/justaupdatechannel')
+            ]
+            ]
         await query.answer()
         await client.send_cached_media(
             chat_id=query.from_user.id,
@@ -679,17 +697,19 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('𝑎𝑑𝑑 𝑚𝑒 𝑡𝑜 𝑦𝑜𝑢𝑟 𝑐𝒉𝑎𝑡', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 GᏒԾUᎮ 💠', url='https://t.me/+EqhXLhL3T1w4Zjc1'),
-            InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/+veUIdIW2CQ5mOGU5')
+            InlineKeyboardButton('𝒉𝑒𝑙𝑝', callback_data='help'),
+            InlineKeyboardButton('𝑎𝑏𝑜𝑢𝑡', callback_data='about')
             ],[
-            InlineKeyboardButton('💰 ᎮΛIᎠ ᎮᏒᎧᎷᎧϮIᎧИ 💰', callback_data='donation')
+            InlineKeyboardButton('🔍𝑠𝑒𝑎𝑟𝑐𝒉 𝒉𝑒𝑟𝑒 𝑚𝑜𝑣𝑖𝑒🔎', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
-            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
+            InlineKeyboardButton('𝐷𝑒𝑣𝑒𝑙𝑜𝑝𝑒𝑟', url='https://t.me/ABHISHEKSVLOG'),
+            InlineKeyboardButton('𝐺𝑟𝑜𝑢𝑝', url='https://t.me/cinemaenglish123')
             ],[
-            InlineKeyboardButton('💠 SΞΛᏒCH HΞᏒΞ 💠', switch_inline_query_current_chat='')
+            InlineKeyboardButton('𝑈𝑃𝐷𝐴𝑇𝐸𝑆 𝐶𝐻𝐴𝑁𝑁𝐸𝐿', url='https://t.me/Justaupdatechannel'),
+            ],[
+            InlineKeyboardButton('✗ 𝐶𝑙𝑜𝑠𝑒 𝑇𝒉𝑒 𝑀𝑒𝑛𝑢 ✗', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -822,10 +842,19 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('♥️ SԾUᏒCΞ ♥️', url='https://github.com/Aadhi000/Ajax')
+            InlineKeyboardButton('𝑎𝑑𝑑 𝑚𝑒 𝑡𝑜 𝑦𝑜𝑢𝑟 𝑐𝒉𝑎𝑡', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🏠 𝗛𝗼𝗺𝗲 🏠', callback_data='start'),
-            InlineKeyboardButton('🔐 𝗖𝗹𝗼𝘀𝗲 🔐', callback_data='close_data')
+            InlineKeyboardButton('𝑆𝑡𝑎𝑡𝑢𝑠', callback_data='stats'),
+            InlineKeyboardButton('𝑆𝑜𝑢𝑟𝑐𝑒', callback_data='source')
+            ],[
+            InlineKeyboardButton('🔍𝑆𝑒𝑎𝑟𝑐𝒉 𝑀𝑜𝑣𝑖𝑒🔎', switch_inline_query_current_chat='')
+            ],[
+            InlineKeyboardButton('🍿𝑀𝑜𝑣𝑖𝑒 𝑅𝑒𝑞𝑢𝑒𝑠𝑡 𝐺𝑟𝑜𝑢𝑝🍿', url='https://t.me/Cinemaenglish123')
+            ],[
+            InlineKeyboardButton('𝐻𝑒𝑙𝑝 & 𝐶𝑜𝑚𝑚𝑎𝑛𝑑𝑠', callback_data='help')
+            ],[
+            InlineKeyboardButton('« 𝐵𝑎𝑐𝑘', callback_data='start'),
+            InlineKeyboardButton('𝐶𝑙𝑜𝑠𝑒 ✗', callback_data='close_data'),
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
