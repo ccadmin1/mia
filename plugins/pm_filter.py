@@ -785,6 +785,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝐹𝑖𝑙𝑒-𝑆𝑡𝑜𝑟𝑒', callback_data='newdata'),
             InlineKeyboardButton('𝑝𝑢𝑟𝑔𝑒', callback_data='purge'),
             ],[
+            InlineKeyboardButton('𝑚𝑒𝑚𝑒', callback_data='memes'),
+            ],[
             InlineKeyboardButton('𝐵𝑎𝑐𝑘', callback_data='start'),
             InlineKeyboardButton('𝑆𝑡𝑎𝑡𝑢𝑠', callback_data='stats'),
             InlineKeyboardButton('𝐶𝑙𝑜𝑠𝑒 ✗', callback_data='close_data')
