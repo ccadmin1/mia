@@ -4,8 +4,8 @@ Syntax: .purge"""
 import asyncio
 from pyrogram import Client, filters
 
-from plugins.help_function.admin_check import admin_check
-from plugins.help_function.cust_p_filters import f_onw_fliter
+from plugins.help_functions.admin_check import admin_check
+from plugins.help_functions.cust_p_filters import f_onw_fliter
 
 TG_MAX_SELECT_LEN = 100
 
