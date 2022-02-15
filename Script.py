@@ -80,22 +80,15 @@ Song Download Module, For Those Who Love Music
 - Works in bot pm
 
 Made By <a href=https://t.me/+veUIdIW2CQ5mOGU5>𝐌𝐖 𝐔𝐩𝐝𝐚𝐭𝐞𝐬</a>"""
-    PURGE_TXT = """Help: <b>Purge</b>
-Need to delete lots of messages? That's what purges are for!
+    SHARE_TXT = """Help: <b>Sharing Text Maker</b>
+a bot to create a link to share text in the telegram.
 <b>Commands and Usage:</b>
-• /purge - delete all messages from the replied to message, to the current message.
+• /share (text or reply to message)
 <b>NOTE:</b>
 • IMDb should have admin privillage.
-• These commands works on group.
-• These commands can be used by Only admin."""
-    MEMES_TXT = """Help: <b>Memes</b>
-Some dank memes for fun or whatever!
-<b>Commands and Usage:</b>
-• /throw or /dart - t𝗈 m𝖺𝗄𝖾 drat 
-• /roll or /dice - roll the dice 
-• /goal or /shoot - to make a goal or shoot
-• /luck or /cownd - Spin the Lucky
-• /runs strings"""
+• These commands works on both pm and group.
+• These commands can be used by any group member."""
+   
     PIN_TXT ="""<b>PIN MODULE</b>
 <b>Pin :</b>
 
