@@ -783,9 +783,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('𝐺-𝑇𝑟𝑎𝑛𝑠', callback_data='gtrans'),
             InlineKeyboardButton('𝐹𝑖𝑙𝑒-𝑆𝑡𝑜𝑟𝑒', callback_data='newdata'),
-            InlineKeyboardButton('𝑝𝑢𝑟𝑔𝑒', callback_data='purge'),
-            ],[
-            InlineKeyboardButton('𝑚𝑒𝑚𝑒', callback_data='memes'),
+            InlineKeyboardButton('𝑆𝒉𝑎𝑟𝑒-𝑇𝑒𝑥𝑡', callback_data='sharetext'),
             ],[
             InlineKeyboardButton('𝐵𝑎𝑐𝑘', callback_data='start'),
             InlineKeyboardButton('𝑆𝑡𝑎𝑡𝑢𝑠', callback_data='stats'),
@@ -867,13 +865,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-    elif query.data == "memes":
+    elif query.data == "sharetext":
         buttons = [[
             InlineKeyboardButton('« 𝐵𝑎𝑐𝑘', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text=Script.MEMES_TXT,
+            text=Script.SHARE_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
@@ -888,17 +886,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
-        )
-    elif query.data == "purge":
-        buttons= [[
-            InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help')
-        ]]
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text=script.PURGE_TXT,
-            disable_web_page_preview=True,
-            reply_markup=reply_markup,
-            parse_mode='html',
         )
     elif query.data == "image":
         buttons= [[
