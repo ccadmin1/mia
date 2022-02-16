@@ -34,4 +34,4 @@ pypdf2
 PyPDF2
 pyshorteners
 asyncio==3.4.3
-
+os
