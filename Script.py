@@ -62,7 +62,7 @@ a bot to create a link to share text in the telegram.
 • IMDb should have admin privillage.
 • These commands works on both pm and group.
 • These commands can be used by any group member."""
-    PASSWORD_GEN_TXT = """Help: <b>Password Generator</b>
+    GEN_TXT = """Help: <b>Password Generator</b>
 There Is Nothing To Know More. Send Me The Limit Of Your Password.
 - I Will Give The Password Of That Limit.
 <b>Commands and Usage:</b>
