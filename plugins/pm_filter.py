@@ -711,6 +711,18 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('✗ 𝐶𝑙𝑜𝑠𝑒 𝑇𝒉𝑒 𝑀𝑒𝑛𝑢 ✗', callback_data='close_data')
         ]]
+        await query.message.edit_text(
+            text="⭗ ⭗ ⭗"
+        )
+        await query.message.edit_text(
+            text="⦿ ⭗ ⭗"
+        )
+        await query.message.edit_text(
+            text="⦿ ⦿ ⭗"
+        )
+        await query.message.edit_text(
+            text="⦿ ⦿ ⦿"
+        )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.START_TXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
@@ -791,6 +803,18 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝑆𝑡𝑎𝑡𝑢𝑠', callback_data='stats'),
             InlineKeyboardButton('𝐶𝑙𝑜𝑠𝑒 ✗', callback_data='close_data')
         ]]
+        await query.message.edit_text(
+            text="⭗ ⭗ ⭗"
+        )
+        await query.message.edit_text(
+            text="⦿ ⭗ ⭗"
+        )
+        await query.message.edit_text(
+            text="⦿ ⦿ ⭗"
+        )
+        await query.message.edit_text(
+            text="⦿ ⦿ ⦿"
+        )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.HELP_TXT.format(query.from_user.mention),
@@ -861,6 +885,18 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('« 𝐵𝑎𝑐𝑘', callback_data='start'),
             InlineKeyboardButton('𝐶𝑙𝑜𝑠𝑒 ✗', callback_data='close_data'),
         ]]
+        await query.message.edit_text(
+            text="⭗ ⭗ ⭗"
+        )
+        await query.message.edit_text(
+            text="⦿ ⭗ ⭗"
+        )
+        await query.message.edit_text(
+            text="⦿ ⦿ ⭗"
+        )
+        await query.message.edit_text(
+            text="⦿ ⦿ ⦿"
+        )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.ABOUT_TXT.format(temp.B_NAME),
