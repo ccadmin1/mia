@@ -12,7 +12,7 @@ class script(object):
     HELP_TXT = """𝙷𝙴𝚈 {}
 <b>മോനെ Features എങ്ങനെയുൺ <a href='tg://user?id=1951205538'><b>𝑹𝒂𝒕𝒆 𝒊𝒕 𝒉𝒆𝒓𝒆 </a>
 Hey How's the features Did you Like it <a href='tg://user?id=1951205538'><b>𝑹𝒂𝒕𝒆 𝒊𝒕 𝒉𝒆𝒓𝒆 </a></b>"""
-    ABOUT_TXT = """➥ My name: {}
+    ABOUT_TXT = """
 ╔══════════════════❍
 ║╭━━━━━━━━━━━━━━━➣ 
 ║➠ 𝙼𝚈 𝙽𝙰𝙼𝙴 -  Tiger Shroff
@@ -62,6 +62,9 @@ a bot to create a link to share text in the telegram.
 • IMDb should have admin privillage.
 • These commands works on both pm and group.
 • These commands can be used by any group member."""
+    SOURCE_TXT = """<b>Source:</b>
+This bot is a Close source project.But my source code would be here
+Source: <a href='https://Github.com/EvaMariaTG/EvaMaria'>Source - Click here 👈</a>
     GEN_TXT = """Help: <b>Password Generator</b>
 There Is Nothing To Know More. Send Me The Limit Of Your Password.
 - I Will Give The Password Of That Limit.
