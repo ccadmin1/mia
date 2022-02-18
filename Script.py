@@ -65,18 +65,7 @@ a bot to create a link to share text in the telegram.
     SOURCE_TXT = """<b>Source:</b>
 This bot is a Close source project.But my source code would be here
 Source: <a href='https://Github.com/EvaMariaTG/EvaMaria'>Source - Click here 👈</a>
-    GEN_TXT = """Help: <b>Password Generator</b>
-There Is Nothing To Know More. Send Me The Limit Of Your Password.
-- I Will Give The Password Of That Limit.
-<b>Commands and Usage:</b>
-• /genpassword or /genpw <code>20</code>
-<b>NOTE:</b>
-• Only Digits Are Allowed
-• Maximum Allowed Digits Till 84 
-(I Can't Generate Passwords Above The Length 84)
-• IMDb should have admin privillage.
-• These commands works on both pm and group.
-• These commands can be used by any group member."""
+    
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and ᗩᒍᗩ᙭  will respond whenever a keyword is found the message
