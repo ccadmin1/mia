@@ -30,7 +30,6 @@ psutil
 wheel
 humanize
 ytthumb
-PyPDF2
 pyshorteners
 asyncio==3.4.3
 datetime
