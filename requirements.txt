@@ -34,4 +34,5 @@ pyshorteners
 asyncio==3.4.3
 datetime
 PyDictionary==2.0.1
-beautifulsoap4
+PyPDF2
+pypdf2
