@@ -798,7 +798,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝑆𝒉𝑎𝑟𝑒-𝑇𝑒𝑥𝑡', callback_data='sharetext'),
             ],[
             InlineKeyboardButton('𝑝𝑎𝑠𝑠𝑤𝑜𝑟𝑑 𝑔𝑒𝑛', callback_data='genpassword'),
-            InlineKeyboardButton('English'), callback_data='english'),
+            InlineKeyboardButton('English', callback_data='english'),
             ],[
             InlineKeyboardButton('𝐵𝑎𝑐𝑘', callback_data='start'),
             InlineKeyboardButton('𝑆𝑡𝑎𝑡𝑢𝑠', callback_data='stats'),
