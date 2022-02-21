@@ -18,10 +18,10 @@ from alita import (
     WORKERS,
     load_cmds,
 )
-from alita.database import MongoDB
-from alita.plugins import all_plugins
-from alita.tr_engine import lang_dict
-from alita.vars import Config
+from TigerShroff.database import MongoDB
+from TigerShroff.plugins import all_plugins
+from TigerShroff.tr_engine import lang_dict
+from TigerShroff.vars import Config
 
 INITIAL_LOCK = RLock()
 
