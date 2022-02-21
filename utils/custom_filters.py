@@ -8,10 +8,10 @@ from pyrogram.filters import create
 from pyrogram.types import CallbackQuery, Message
 
 from TigerShroff import DEV_USERS, OWNER_ID, SUDO_USERS
-from alita.database.disable_db import DISABLED_CMDS
-from alita.tr_engine import tlang
-from alita.utils.caching import ADMIN_CACHE, admin_cache_reload
-from alita.vars import Config
+from TigerShroff.database.disable_db import DISABLED_CMDS
+from TigerShroff.tr_engine import tlang
+from TigerShroff.utils.caching import ADMIN_CACHE, admin_cache_reload
+from TigerShroff.vars import Config
 
 SUDO_LEVEL = set(SUDO_USERS + DEV_USERS + [int(OWNER_ID)])
 DEV_LEVEL = set(DEV_USERS + [int(OWNER_ID)])
