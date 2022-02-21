@@ -6,7 +6,7 @@ from cachetools import TTLCache
 from pyrogram.types import CallbackQuery
 from pyrogram.types.messages_and_media.message import Message
 
-from alita import LOGGER
+from Alita import LOGGER
 
 THREAD_LOCK = RLock()
 
