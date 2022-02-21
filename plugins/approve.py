@@ -5,10 +5,10 @@ from pyrogram.types import CallbackQuery, ChatPermissions, Message
 from Alita import LOGGER, SUPPORT_GROUP
 from Alita.bot_class import Alita
 from database.approve_db import Approve
-from TigerShroff.utils.custom_filters import admin_filter, command, owner_filter
-from TigerShroff.utils.extract_user import extract_user
-from TigerShroff.utils.kbhelpers import ikb
-from TigerShroff.utils.parser import mention_html
+from Alita.utils.custom_filters import admin_filter, command, owner_filter
+from Alita.utils.extract_user import extract_user
+from Alita.utils.kbhelpers import ikb
+from Alita.utils.parser import mention_html
 
 
 @Alita.on_message(command("approve") & admin_filter)
