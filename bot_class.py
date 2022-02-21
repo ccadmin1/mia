@@ -5,7 +5,7 @@ from time import gmtime, strftime, time
 from pyrogram import Client, __version__
 from pyrogram.raw.all import layer
 
-from alita import (
+from TigerShroff import (
     API_HASH,
     APP_ID,
     BOT_TOKEN,
