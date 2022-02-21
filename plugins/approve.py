@@ -2,7 +2,7 @@ from pyrogram import filters
 from pyrogram.errors import PeerIdInvalid, RPCError, UserNotParticipant
 from pyrogram.types import CallbackQuery, ChatPermissions, Message
 
-from TigerShroff import LOGGER, SUPPORT_GROUP
+from tigerShroff import LOGGER, SUPPORT_GROUP
 from TigerShroff.bot_class import TigerShroff
 from TigerShroff.database.approve_db import Approve
 from TigerShroff.utils.custom_filters import admin_filter, command, owner_filter
