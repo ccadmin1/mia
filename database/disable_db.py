@@ -1,7 +1,7 @@
 from threading import RLock
 
-from TigerShroff import LOGGER
-from TigerShroff.database import MongoDB
+from Alita import LOGGER
+from database import MongoDB
 
 INSERTION_LOCK = RLock()
 DISABLED_CMDS = {}
