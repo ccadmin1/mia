@@ -7,7 +7,7 @@ from pyrogram.errors import RPCError, UserNotParticipant
 from pyrogram.filters import create
 from pyrogram.types import CallbackQuery, Message
 
-from alita import DEV_USERS, OWNER_ID, SUDO_USERS
+from TigerShroff import DEV_USERS, OWNER_ID, SUDO_USERS
 from alita.database.disable_db import DISABLED_CMDS
 from alita.tr_engine import tlang
 from alita.utils.caching import ADMIN_CACHE, admin_cache_reload
