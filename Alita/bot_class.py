@@ -18,8 +18,8 @@ from alita import (
     WORKERS,
     load_cmds,
 )
-from alita.database import MongoDB
-from alita.plugins import all_plugins
+from database import MongoDB
+from plugins import all_plugins
 from alita.tr_engine import lang_dict
 from alita.vars import Config
 
