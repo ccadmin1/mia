@@ -1,4 +1,4 @@
-from os import environ
+from os import getcwd
 
 
 env_file = f"{getcwd()}/.env"
