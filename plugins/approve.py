@@ -2,9 +2,9 @@ from pyrogram import filters
 from pyrogram.errors import PeerIdInvalid, RPCError, UserNotParticipant
 from pyrogram.types import CallbackQuery, ChatPermissions, Message
 
-from tigerShroff import LOGGER, SUPPORT_GROUP
-from TigerShroff.bot_class import TigerShroff
-from TigerShroff.database.approve_db import Approve
+from Alita import LOGGER, SUPPORT_GROUP
+from Alita.bot_class import Alita
+from database.approve_db import Approve
 from TigerShroff.utils.custom_filters import admin_filter, command, owner_filter
 from TigerShroff.utils.extract_user import extract_user
 from TigerShroff.utils.kbhelpers import ikb
