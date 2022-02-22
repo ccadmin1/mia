@@ -7,7 +7,7 @@ from traceback import format_exc
 
 from pyrogram.types import CallbackQuery
 
-from alita import ENABLED_LOCALES, LOGGER
+from Alita import ENABLED_LOCALES, LOGGER
 from database.lang_db import Langs
 
 # Initialise
