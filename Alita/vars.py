@@ -19,8 +19,8 @@ class Config:
     DEV_USERS = [int(i) for i in config("DEV_USERS", default="").split()]
     SUDO_USERS = [int(i) for i in config("SUDO_USERS", default="").split()]
     WHITELIST_USERS = [int(i) for i in config("WHITELIST_USERS", default="").split()]
-    DATABASE_URI = config("DB_URI", default="")
-    DATABASE_NAME = config("DB_NAME", default="alita_robot")
+    DATABASE_URI = config("DATABASE_URI", default="")
+    DATABASE_NAME = config("DATABASE_NAME", default="alita_robot")
     NO_LOAD = config("NO_LOAD", default="").split()
     PREFIX_HANDLER = config("PREFIX_HANDLER", default="/").split()
     SUPPORT_GROUP = config("SUPPORT_GROUP", default="DivideProjectsDiscussion")
