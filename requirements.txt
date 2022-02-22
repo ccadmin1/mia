@@ -36,3 +36,4 @@ datetime
 PyDictionary==2.0.1
 PyPDF2
 pypdf2
+prettyconf==2.2.1
