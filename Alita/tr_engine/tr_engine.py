@@ -6,8 +6,8 @@ from threading import RLock
 from traceback import format_exc
 
 from pyrogram.types import CallbackQuery
-from yaml import FullLoader
-from yaml import load as load_yml
+from Alita import FullLoader
+from Alita import load as load_yml
 
 from alita import ENABLED_LOCALES, LOGGER
 from database.lang_db import Langs
