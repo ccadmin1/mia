@@ -5,7 +5,7 @@ from time import gmtime, strftime, time
 from pyrogram import Client, __version__
 from pyrogram.raw.all import layer
 
-from alita import (
+from Alita import (
     API_HASH,
     APP_ID,
     BOT_TOKEN,
@@ -20,8 +20,8 @@ from alita import (
 )
 from database import MongoDB
 from plugins import all_plugins
-from alita.tr_engine import lang_dict
-from alita.vars import Config
+from Alita.tr_engine import lang_dict
+from Alita.vars import Config
 
 INITIAL_LOCK = RLock()
 
