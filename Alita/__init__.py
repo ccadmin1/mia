@@ -76,8 +76,8 @@ SUPPORT_STAFF = list(
 )  # Remove duplicates by using a set
 
 # Plugins, DB and Workers
-DATABASE_URI = Config.DATABASE_URI
-DATABASE_NAME = Config.DATABASE_NAME
+DB_URI = Config.DB_URI
+DB_NAME = Config.DB_NAME
 NO_LOAD = Config.NO_LOAD
 WORKERS = Config.WORKERS
 
