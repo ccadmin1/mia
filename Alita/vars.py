@@ -46,7 +46,7 @@ class Development:
     DEV_USERS = []
     SUDO_USERS = []
     WHITELIST_USERS = []
-    DB_URI = "postgres://username:password@postgresdb:5432/database_name"
+    DB_URI = "mongodb+srv://Jijin123:Jijin123@cluster0.cklbe.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
     DB_NAME = "alita_robot"
     NO_LOAD = []
     PREFIX_HANDLER = ["!", "/"]
