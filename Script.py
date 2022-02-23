@@ -44,7 +44,7 @@ That's what approvals are for - approve of trustworthy users to allow them to se
 × /approved: List all approved users.
 
 <b>Group Owner Commands</b>:
-× /unapproveall: Unapprove ALL users in a chat. This cannot be undone.
+× /unapproveall: Unapprove ALL users in a chat. This cannot be undone."""
     FILE_TXT = """➤ 𝐇𝐞𝐥𝐩: 𝐅𝐢𝐥𝐞 𝐒𝐭𝐨𝐫𝐞 𝐌𝐨𝐝𝐮𝐥𝐞../
 
 <b>By Using This Module You can store files in My database and I will You A Permanent link To access The saved Files.If You want to add files from a Public channel send the file link only or You want to store files from a Private channel you must make me admin on their to access files files.../</b>
