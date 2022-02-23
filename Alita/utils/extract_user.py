@@ -3,9 +3,9 @@ from typing import Tuple
 
 from pyrogram.types.messages_and_media.message import Message
 
-from alita import LOGGER
-from alita.bot_class import Alita
-from alita.database.users_db import Users
+from Alita import LOGGER
+from pyrogram import Client as Alita
+from database.users_db import Users
 
 
 async def extract_user(c: Alita, m: Message) -> Tuple[int, str, str]:
