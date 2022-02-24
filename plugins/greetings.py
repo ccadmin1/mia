@@ -17,7 +17,7 @@ from Alita.utils.string import (
     escape_invalid_curly_brackets,
     parse_button,
 )
-from alita.vars import Config
+from Alita.vars import Config
 
 # Initialize
 gdb = GBan()
