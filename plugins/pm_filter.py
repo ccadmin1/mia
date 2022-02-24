@@ -765,6 +765,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝐴𝑢𝑡𝑜 𝐹𝑖𝑙𝑡𝑒𝑟', callback_data='autofilter'),
             InlineKeyboardButton('𝐶𝑜𝑛𝑛𝑒𝑐𝑡𝑖𝑜𝑛𝑠', callback_data='coct')
             ],[
+            InlineKeyboardButton('𝐴𝑝𝑝𝑟𝑜𝑣𝑒', callback_data='approve'),
+            ],[
             InlineKeyboardButton('𝑆𝑜𝑛𝑔', callback_data='songs'),
             InlineKeyboardButton('𝐸𝑥𝑡𝑟𝑎', callback_data='extra'),
             InlineKeyboardButton("𝑉𝑖𝑑𝑒𝑜", callback_data='video')
@@ -798,7 +800,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝑆𝒉𝑎𝑟𝑒-𝑇𝑒𝑥𝑡', callback_data='sharetext'),
             ],[
             InlineKeyboardButton('𝑝𝑎𝑠𝑠𝑤𝑜𝑟𝑑 𝑔𝑒𝑛', callback_data='genpassword'),
-            InlineKeyboardButton('Approval', callback_data='approve'),
             ],[
             InlineKeyboardButton('𝐵𝑎𝑐𝑘', callback_data='start'),
             InlineKeyboardButton('𝑆𝑡𝑎𝑡𝑢𝑠', callback_data='stats'),
