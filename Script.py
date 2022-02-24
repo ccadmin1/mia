@@ -58,6 +58,20 @@ That's what approvals are for - approve of trustworthy users to allow them to se
 ⪼ 𝐄𝐱𝐚𝐦𝐩𝐥𝐞 ›
 
 <code>/batch https://t.me/c/1749754594/332 https://t.me/c/1749754594/336</code>"""
+
+    WELCOME_TXT ="""Here is the help for the <b>Greetings</b> module:
+
+Welcome new members to your groups or say Goodbye after they leave!
+
+<b>Admin Commands</b>:
+× /setwelcome <reply/text>: Sets welcome text for group.
+× /welcome <yes/no/on/off>: Enables or Disables welcome setting for group.
+× /resetwelcome: Resets the welcome message to default.
+× /setgoodbye <reply/text>: Sets goodbye text for group.
+× /goodbye <yes/no/on/off>: Enables or Disables goodbye setting for group.
+× /resetgoodbye: Resets the goodbye message to default.
+× /cleanservice <yes/no/on/off>: Delete all service messages such as 'x joined the group' notification.
+× /cleanwelcome <yes/no/on/off>: Delete the old welcome message, whenever a new member joins."""
     WHOIS_TXT ="""<b>WHOIS MODULE</b>
 Note:- Give a user details
 •/whois :-give a user full details"""
