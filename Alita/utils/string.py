@@ -5,7 +5,7 @@ from typing import List
 
 from pyrogram.types import InlineKeyboardButton, Message
 
-from alita.utils.parser import escape_markdown
+from Alita.utils.parser import escape_markdown
 
 BTN_URL_REGEX = compile_re(r"(\[([^\[]+?)\]\(buttonurl:(?:/{0,2})(.+?)(:same)?\))")
 
