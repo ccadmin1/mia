@@ -17,7 +17,7 @@ from Alita.utils.string import (
     escape_mentions_using_curly_brackets,
     parse_button,
 )
-from alita.vars import Config
+from Alita.vars import Config
 
 # Initialise
 db = Notes()
