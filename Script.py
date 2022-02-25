@@ -45,6 +45,21 @@ That's what approvals are for - approve of trustworthy users to allow them to se
 
 <b>Group Owner Commands</b>:
 × /unapproveall: Unapprove ALL users in a chat. This cannot be undone."""
+
+    LOCK_TXT = """Here is the help for the <b>Locks</b> module:
+
+<b>Admin only</b>:
+× /lock <permission>: Lock Chat permission..
+× /unlock <permission>: Unlock Chat permission.
+× /locks: View Chat permission.
+× /locktypes: Check available lock types!
+
+Locks can be used to restrict a group's users.
+Locking urls will auto-delete all messages with urls, locking stickers will delete all stickers, etc.
+Locking bots will stop non-admins from adding bots to the chat.
+
+Example:
+/lock media: this locks all the media messages in the chat."""
     FILE_TXT = """➤ 𝐇𝐞𝐥𝐩: 𝐅𝐢𝐥𝐞 𝐒𝐭𝐨𝐫𝐞 𝐌𝐨𝐝𝐮𝐥𝐞../
 
 <b>By Using This Module You can store files in My database and I will You A Permanent link To access The saved Files.If You want to add files from a Public channel send the file link only or You want to store files from a Private channel you must make me admin on their to access files files.../</b>
