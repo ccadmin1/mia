@@ -2,8 +2,8 @@ from hashlib import md5
 from threading import RLock
 from time import time
 
-from alita.database import MongoDB
-from alita.utils.msg_types import Types
+from database import MongoDB
+from Alita.utils.msg_types import Types
 
 INSERTION_LOCK = RLock()
 
