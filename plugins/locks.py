@@ -3,11 +3,11 @@ from asyncio import sleep
 from pyrogram.errors import ChatAdminRequired, ChatNotModified, RPCError
 from pyrogram.types import ChatPermissions, Message
 
-from alita import LOGGER
-from alita.bot_class import Alita
-from alita.database.approve_db import Approve
-from alita.tr_engine import tlang
-from alita.utils.custom_filters import command, restrict_filter
+from Alita import LOGGER
+from pyrogram import Client as Alita
+from database.approve_db import Approve
+from Alita.tr_engine import tlang
+from Alita.utils.custom_filters import command, restrict_filter
 
 
 @Alita.on_message(command("locktypes"))
