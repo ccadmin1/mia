@@ -890,10 +890,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝐶𝑙𝑜𝑠𝑒 ✗', callback_data='close_data'),
         ]]
         await query.message.edit_text(
-            text="⭗ ⭗ ⭗ ⭗ ⭗ ⭗"
+            text="𐄪"
         )
         await query.message.edit_text(
-            text="⦿ ⦿ ⦿ ⭗ ⭗ ⭗"
+            text="𐄪"
         )
         await query.message.edit_text(
             text="⦿ ⦿ ⦿ ⦿ ⭗ ⭗"
