@@ -1522,7 +1522,7 @@ async def advantage_spell_chok(msg):
     ] for k, movie in enumerate(movielist)]
     btn.append([InlineKeyboardButton(text="Close", callback_data=f'spolling#{user}#close_spellcheck')])
     await msg.send_sticker(chat_id=message.from_user.id, sticker="CAACAgQAAxkBAAJQzmIZo8u3pHF8ulLUGT7dUeIjAAF78QACVQADjRtGJ-yIezShSzCbHgQ"),
-    reply_markup=InlineKeyboardMarkup(btn))
+    reply_markup=InlineKeyboardMarkup(btn)
 
 async def manual_filters(client, message, text=False):
     group_id = message.chat.id
