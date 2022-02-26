@@ -7,7 +7,7 @@ Very Sempil Bot Auto Filter bot
 
 
 
-[![Deploy](https://telegra.ph/file/595e6b626b2fee08397d6.jpg)](https://heroku.com/deploy?template=https://github.com/200920082007/extrafeatures-for-evamaria)
+[![Deploy](https://telegra.ph/file/595e6b626b2fee08397d6.jpg)](https://heroku.com/deploy?template=https://telegram.dog/XTZ_HerokuBot?start=MjAwOTIwMDgyMDA3L1RpZ2VyU2hyb2ZmIG1haW4)
 
 ## Features
 
@@ -50,11 +50,12 @@ Very Sempil Bot Auto Filter bot
 ## Deploy
 You can deploy this bot anywhere.
 
+##You can deploy easily using @Xtz_HerokuBot
 
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/Aadhi000/Ajax-Extra-Features">
+<a href="https://telegram.dog/XTZ_HerokuBot?start=MjAwOTIwMDgyMDA3L1RpZ2VyU2hyb2ZmIG1haW4">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
