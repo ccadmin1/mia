@@ -890,17 +890,19 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝐶𝑙𝑜𝑠𝑒 ✗', callback_data='close_data'),
         ]]
         await query.message.edit_text(
-            text="⭗ ⭗ ⭗"
+            text="⭗ ⭗ ⭗ ⭗ ⭗ ⭗"
         )
         await query.message.edit_text(
-            text="⦿ ⭗ ⭗"
+            text="⦿ ⦿ ⦿ ⭗ ⭗ ⭗"
         )
         await query.message.edit_text(
-            text="⦿ ⦿ ⭗"
+            text="⦿ ⦿ ⦿ ⦿ ⭗ ⭗"
         )
         await query.message.edit_text(
-            text="⦿ ⦿ ⦿"
+            text="⦿ ⦿ ⦿ ⦿ ⦿ ⭗"
         )
+        await query.message.edit_text(
+            text="⦿ ⦿ ⦿ ⦿ ⦿ ⦿
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.ABOUT_TXT.format(temp.B_NAME),
@@ -1518,7 +1520,7 @@ async def advantage_spell_chok(msg):
         )
     ] for k, movie in enumerate(movielist)]
     btn.append([InlineKeyboardButton(text="Close", callback_data=f'spolling#{user}#close_spellcheck')])
-    await msg.reply("I couldn't find anything related to that\nDid you mean any one of these?"),
+    await msg.reply("I couldn't find anything related to that\nDid you mean any one of these?",
                     reply_markup=InlineKeyboardMarkup(btn))
 
 async def manual_filters(client, message, text=False):
