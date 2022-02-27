@@ -11,10 +11,6 @@ from plugins.helper_functions.cust_p_filters import f_onw_fliter
 ALIVE = "ചത്തിട്ടില്ല മുത്തേ ഇവിടെ തന്നെ ഉണ്ട്.. നിനക്ക് ഇപ്പൊ എന്നോട് ഒരു സ്നേഹവും ഇല്ല. കൊള്ളാം.. നീ പാഴെ പോലെയേ അല്ല മാറിപോയി..😔 ഇടക്ക് എങ്കിലും ചുമ്മാ ഒന്ന് Start ചെയ്തു നോക്ക്..🙂" 
 HELP = "Help ഒന്നും ഇല്ല ഓടിക്കോ......"
 REPO = "Oops The repo is Vanished Because of CopyCats"
-APPROVAL = "This command is made to be used in group chats, not in pm!"
-APPROVE = "This command is made to be used in group chats, not in pm!"
-APPROVED = "This command is made to be used in group chats, not in pm!"
-UNAPPROVEALL = "This command is made to be used in group chats, not in pm!"
 # -- Constants End -- #
 
 
@@ -40,23 +36,3 @@ async def ping(_, message):
 @Client.on_message(filters.command("repo", COMMAND_HAND_LER) & f_onw_fliter)
 async def repo(_, message):
     await message.reply_text(REPO)
-
-
-@Client.on_message(filters.command("approval", COMMAND_HAND_LER) & f_onw_fliter)
-async def go_notavailable(_, message):
-    await message.reply_text(APPROVAL)
-
-
-@Client.on_message(filters.command("approve", COMMAND_HAND_LER) & f_onw_fliter)
-async def go_notavailabl(_, message):
-    await message.reply_text(APPROVE)
-
-
-@Client.on_message(filters.command("approved", COMMAND_HAND_LER) & f_onw_fliter)
-async def go_notavailab(_, message):
-    await message.reply_text(APPROVED)
-
-
-@Client.on_message(filters.command("unapproveall", COMMAND_HAND_LER) & f_onw_fliter)
-async def go_notavailable(_, message):
-    await message.reply_text(UNAPPROVEALL)
