@@ -42,7 +42,7 @@ Available commands:
  • /kaizoku <anime>: search an anime on animekaizoku.com
  • /kayo <anime>: search an anime on animekayo.com
  • /airing <anime>: returns anime airing info.
- • /whatanime - reply to gif or video
+ • /whatanime - reply to gif or video"""
     NOTE_TXT = """Here is the help for the <b>Notes</b> module:
 
 Save data for future users with notes!
