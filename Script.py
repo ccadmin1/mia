@@ -29,6 +29,20 @@ Hey How's the features Did you Like it <a href='tg://user?id=1951205538'><b>𝑹
 
 
 🔖 𝑸𝒖𝒐𝒕𝒆 : ആരും പേടിക്കേണ്ട എല്ലാവർക്കും കിട്ടും ™️"""
+    
+    ANIME_TXT = """Here is the help for the Anime module:
+
+Get information about anime, manga or characters from AniList.
+Available commands:
+ • /anime <anime>: returns information about the anime.
+ • /character <character>: returns information about the character.
+ • /manga <manga>: returns information about the manga.
+ • /user <user>: returns information about a MyAnimeList user.
+ • /upcoming: returns a list of new anime in the upcoming seasons.
+ • /kaizoku <anime>: search an anime on animekaizoku.com
+ • /kayo <anime>: search an anime on animekayo.com
+ • /airing <anime>: returns anime airing info.
+ • /whatanime - reply to gif or video
     NOTE_TXT = """Here is the help for the <b>Notes</b> module:
 
 Save data for future users with notes!
