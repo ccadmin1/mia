@@ -712,16 +712,19 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('✗ 𝐶𝑙𝑜𝑠𝑒 𝑇𝒉𝑒 𝑀𝑒𝑛𝑢 ✗', callback_data='close_data')
         ]]
         await query.message.edit_text(
-            text="⭗ ⭗ ⭗"
+            text="⭗ ⭗ ⭗ ⭗ ⭗ ⭗"
         )
         await query.message.edit_text(
-            text="⦿ ⭗ ⭗"
+            text="⦿ ⦿ ⦿ ⭗ ⭗ ⭗"
         )
         await query.message.edit_text(
-            text="⦿ ⦿ ⭗"
+            text="⦿ ⦿ ⦿ ⦿ ⭗ ⭗"
         )
         await query.message.edit_text(
-            text="⦿ ⦿ ⦿"
+            text="⦿ ⦿ ⦿ ⦿ ⦿ ⭗"
+        )
+        await query.message.edit_text(
+            text="⦿ ⦿ ⦿ ⦿ ⦿ ⦿"
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -808,16 +811,19 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝐶𝑙𝑜𝑠𝑒 ✗', callback_data='close_data')
         ]]
         await query.message.edit_text(
-            text="⭗ ⭗ ⭗"
+            text="⭗ ⭗ ⭗ ⭗ ⭗ ⭗"
         )
         await query.message.edit_text(
-            text="⦿ ⭗ ⭗"
+            text="⦿ ⦿ ⦿ ⭗ ⭗ ⭗"
         )
         await query.message.edit_text(
-            text="⦿ ⦿ ⭗"
+            text="⦿ ⦿ ⦿ ⦿ ⭗ ⭗"
         )
         await query.message.edit_text(
-            text="⦿ ⦿ ⦿"
+            text="⦿ ⦿ ⦿ ⦿ ⦿ ⭗"
+        )
+        await query.message.edit_text(
+            text="⦿ ⦿ ⦿ ⦿ ⦿ ⦿"
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -890,10 +896,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝐶𝑙𝑜𝑠𝑒 ✗', callback_data='close_data'),
         ]]
         await query.message.edit_text(
-            text="𐄪"
+            text="⭗ ⭗ ⭗ ⭗ ⭗ ⭗"
         )
         await query.message.edit_text(
-            text="𐄪"
+            text="⦿ ⦿ ⦿ ⭗ ⭗ ⭗"
         )
         await query.message.edit_text(
             text="⦿ ⦿ ⦿ ⦿ ⭗ ⭗"
