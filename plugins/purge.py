@@ -3,10 +3,10 @@ from asyncio import sleep
 from pyrogram.errors import MessageDeleteForbidden, RPCError
 from pyrogram.types import Message
 
-from alita import SUPPORT_GROUP
-from alita.bot_class import Alita
-from alita.tr_engine import tlang
-from alita.utils.custom_filters import admin_filter, command
+from Alita import SUPPORT_GROUP
+from pyrogram import Client as Alita 
+from Alita.tr_engine import tlang
+from Alita.utils.custom_filters import admin_filter, command
 
 
 @Alita.on_message(command("purge") & admin_filter)
