@@ -29,6 +29,31 @@ Hey How's the features Did you Like it <a href='tg://user?id=1951205538'><b>𝑹
 
 
 🔖 𝑸𝒖𝒐𝒕𝒆 : ആരും പേടിക്കേണ്ട എല്ലാവർക്കും കിട്ടും ™️"""
+    NOTE_TXT = """Here is the help for the <b>Notes</b> module:
+
+Save data for future users with notes!
+Notes are great to save random tidbits of information; a phone number, a nice gif, a funny picture - anything!
+User commands:
+- /get <notename>: Get a note.
+- #notename: Same as /get.
+<b>Admin commands</b>:
+- /save <notename> <note text>: Save a new note called "word". Replying to a message will save that message. Even works on media!
+- /clear <notename>: Delete the associated note.
+- /notes: List all notes in the current chat.
+- /saved: Same as /notes.
+- /clearall: Delete ALL notes in a chat. This cannot be undone.
+- /privatenotes: Whether or not to send notes in PM. Will send a message with a button which users can click to get the note in PM."""
+    
+    PURGE_TXT = """Here is the help for the <b>Purges</b> module:
+
+<b>Admin only</b>:
+- /purge: deletes all messages between this and the replied to message.
+- /del: deletes the message you replied to.
+
+<b>Examples</b>:
+- Delete all messages from the replied to message, until now.
+-> /purge"""
+
     APPROVE_TXT = """Here is the help for the <b>Approvals</b> module:
 
 Sometimes, you might trust a user not to send unwanted content.
