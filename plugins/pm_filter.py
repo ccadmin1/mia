@@ -808,7 +808,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Notes', callback_data='note'),
             InlineKeyboardButton('Purge', callback_data='purge'),
             ],[
-            InlineKeyboardButton('Anime', callback_data='anime'),
+            InlineKeyboardButton('Rules', callback_data='rule'),
             ],[
             InlineKeyboardButton('𝐵𝑎𝑐𝑘', callback_data='start'),
             InlineKeyboardButton('𝑆𝑡𝑎𝑡𝑢𝑠', callback_data='stats'),
@@ -920,13 +920,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-    elif query.data == "anime":
+    elif query.data == "rule":
         buttons = [[
             InlineKeyboardButton('« 𝐵𝑎𝑐𝑘', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text=script.ANIME_TXT,
+            text=script.RULES_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
