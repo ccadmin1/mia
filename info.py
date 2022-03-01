@@ -49,6 +49,13 @@ FSUB_CHANNEL = "-1001161499656"
 LOG_GROUP_ID = "-1001689353663"
 SUDO_USERS_ID = "1951205538"
 USERBOT_PREFIX = "/"
+BASE_DB = "mongodb+srv://Prov2:Prov2@cluster0.cklbe.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+LOG_MENTIONS = "1"
+MONGO_URL = "mongodb+srv://Prov2:Prov2@cluster0.cklbe.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+ARQ_API_URL = "https://thearq.tech"
+RSS_DELAY = "300"
+PM_PERMIT = "1"
+ARQ_API_KEY = "JHUWNM-RKGRRZ-TIMIGZ-UHSYRT-ARQ"
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
