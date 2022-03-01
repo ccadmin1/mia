@@ -9,7 +9,7 @@ from rose import app
 from rose.utils.dbfunctions import is_gbanned_user
 from re import sub
 from rose.core.decorators.permissions import adminsOnly
-from database.gban import GBan
+from rosedatabase.gban import GBan
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from rose.utils.string import (
     build_keyboard,
