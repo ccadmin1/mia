@@ -1518,8 +1518,9 @@ async def auto_filter(client, msg, spoll=False):
         cap = f"Here is what i found for your query {search}"
     if imdb and imdb.get('poster'):
         try:
-            await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
-                                      reply_markup=InlineKeyboardMarkup(btn))
+            joelkb = await message.reply_photo(photo=imdb.get('poster'), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
+            await asyncio.sleep(1800)
+            await joelkb.edit(f"⚙️ 𝐅𝐢𝐥𝐭𝐞𝐫 𝐟𝐨𝐫 {search} 𝐛𝐲 {message.from_user.mention} 𝐜𝐥𝐨𝐬𝐞𝐝 🗑️")
         except (MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty):
             pic = imdb.get('poster')
             poster = pic.replace('.jpg', "._V1_UX360.jpg")
