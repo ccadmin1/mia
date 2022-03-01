@@ -1,13 +1,13 @@
 from pyrogram import filters
 from pyrogram.types import CallbackQuery, Message
 
-from alita import LOGGER
-from alita.bot_class import Alita
-from alita.database.rules_db import Rules
-from alita.tr_engine import tlang
-from alita.utils.custom_filters import admin_filter, command
-from alita.utils.kbhelpers import ikb
-from alita.vars import Config
+from Alita import LOGGER
+from pyrogram import Client as Alita
+from database.rules_db import Rules
+from Alita.tr_engine import tlang
+from Alita.utils.custom_filters import admin_filter, command
+from Alita.utils.kbhelpers import ikb
+from Alita.vars import Config
 
 
 @Alita.on_message(command("rules") & filters.group)
