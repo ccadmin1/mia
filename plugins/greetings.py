@@ -4,7 +4,7 @@ from secrets import choice
 from pyrogram import filters
 from pyrogram.errors import ChatAdminRequired, RPCError
 from pyrogram.types import ChatMemberUpdated, InlineKeyboardMarkup, Message
-from database.welcomedb import Greetings
+from rosedatabase.welcomedb import Greetings
 from rose import app
 from rose.utils.dbfunctions import is_gbanned_user
 from re import sub
