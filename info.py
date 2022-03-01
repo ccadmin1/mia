@@ -48,7 +48,6 @@ PICS = (environ.get('PICS', 'https://telegra.ph/file/7e56d907542396289fee4.jpg h
 FSUB_CHANNEL = "-1001161499656"
 USERBOT_PREFIX = "/"
 LOG_GROUP_ID = "-1001689353663"
-SUDO_USERS_ID = "1951205538"
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
