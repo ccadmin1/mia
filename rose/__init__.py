@@ -22,7 +22,7 @@ from sys import exit as sysexit
 from traceback import format_exc
 import os
 import asyncio
-from info import USERBOT_PREFIX, SUDO_USERS_ID, LOG_GROUP_ID, FSUB_CHANNEL
+from info import USERBOT_PREFIX, SUDO_USERS_ID, LOG_GROUP_ID, FSUB_CHANNEL, ARQ_API_KEY, PM_PERMIT, RSS_DELAY, ARQ_API_URL, MONGO_URL, LOG_MENTIONS, BASE_DB
 from pyrogram import Client
 from pyrogram.errors import FloodWait, UserNotParticipant
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
