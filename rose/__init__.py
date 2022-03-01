@@ -22,7 +22,7 @@ from sys import exit as sysexit
 from traceback import format_exc
 import os
 import asyncio
-from info import FSUB_CHANNEL
+from info import FSUB_CHANNEL, USERBOT_PREFIX
 from pyrogram import Client
 from pyrogram.errors import FloodWait, UserNotParticipant
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
