@@ -28,7 +28,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 from sample_config import *
 
 #fsub channel here
-uchannel= FSUB_CHANNEL
+uchannel = "FSUB_CHANNEL"
 #fsub here
 
 WELCOME_DELAY_KICK_SEC = "300"
