@@ -30,19 +30,19 @@ Hey How's the features Did you Like it <a href='tg://user?id=1951205538'><b>𝑹
 
 🔖 𝑸𝒖𝒐𝒕𝒆 : ആരും പേടിക്കേണ്ട എല്ലാവർക്കും കിട്ടും ™️"""
     
-    ANIME_TXT = """Here is the help for the Anime module:
+    RULES_TXT = """Here is the help for the <b>Rules</b> module:
 
-Get information about anime, manga or characters from AniList.
-Available commands:
- • <code>/anime <anime></code>: returns information about the anime.
- • <code>/character <character></code>: returns information about the character.
- • <code>/manga <manga></code>: returns information about the manga.
- • <code>/user <user></code>: returns information about a MyAnimeList user.
- • /upcoming: returns a list of new anime in the upcoming seasons.
- • <code>/kaizoku <anime></code>: search an anime on animekaizoku.com
- • <code>/kayo <anime></code>: search an anime on animekayo.com
- • <code>/airing <anime></code>: returns anime airing info.
- • /whatanime - reply to gif or video"""
+Every chat works with different rules; this module will help make those rules clearer!
+<b>User commands</b>:
+× /rules: Check the current chat rules.
+<b>Admin commands</b>:
+× /setrules <text>: Set the rules for this chat.
+× /privaterules <yes/no/on/off>: Enable/disable whether the rules should be sent in private.
+× /resetrules: Reset the chat rules to default
+× /rulesbtn <custom text>: Sets the text of rules button.
+× /resetrulesbutton: Reset the text of rules button to default.
+× /resetrulesbtn: Same as above."""
+
     NOTE_TXT = """Here is the help for the <b>Notes</b> module:
 
 Save data for future users with notes!
