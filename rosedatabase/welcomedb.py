@@ -1,7 +1,7 @@
 from threading import RLock
 
 from rose import LOGGER
-from rose.database import MongoDB
+from rosedatabase import MongoDB
 
 INSERTION_LOCK = RLock()
 
