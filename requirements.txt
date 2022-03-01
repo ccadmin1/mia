@@ -37,5 +37,5 @@ PyDictionary==2.0.1
 PyPDF2
 pypdf2
 prettyconf==2.2.1
-cachetools==4.2.4; python_version >= "3.5" and python_version < "4.0
+cachetools==4.2.4; python_version >= "3.5" and python_version < "4.0"
 
