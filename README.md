@@ -31,6 +31,8 @@ Very Sempil Bot Auto Filter bot
 - [x] Sticker ID Generator
 - [x] COVID Information
 - [x] File Store
+- [x] Note Feature Added
+- [x] Purge
 
 ## Variables
 
