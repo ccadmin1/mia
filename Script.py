@@ -29,6 +29,21 @@ Hey How's the features Did you Like it <a href='tg://user?id=1951205538'><b>𝑹
 
 
 🔖 𝑸𝒖𝒐𝒕𝒆 : ആരും പേടിക്കേണ്ട എല്ലാവർക്കും കിട്ടും ™️"""
+
+    DISABLE_TXT = """Here is the help for the <b>Disabling</b> module:
+
+This allows you to disable some commonly used commands, so noone can use them. It'll also allow you to autodelete them, stopping people from bluetexting.
+
+<b>Admin commands</b>:
+× /disable <commandname>: Stop users from using commandname in this group.
+× /enable <item name>: Allow users from using commandname in this group.
+× /disableable: List all disableable commands.
+× /disabledel <yes/no/on/off>: Delete disabled commands when used by non-admins.
+× /disabled: List the disabled commands in this chat.
+
+<b>Note</b>:
+When disabling a command, the command only gets disabled for non-admins. All admins can still use those commands.
+Disabled commands are still accessible through the /connect feature. If you would be interested to see this disabled too, let me know in the support chat."""
     
     RULES_TXT = """Here is the help for the <b>Rules</b> module:
 
