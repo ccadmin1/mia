@@ -9,7 +9,7 @@ from pyrogram.types import (
 )
 
 from Alita import HELP_COMMANDS, LOGGER
-from pyrogram import Client as 
+from pyrogram import Client as Alita
 from database.disable_db import Disabling
 from Alita.utils.custom_filters import (
     admin_filter,
