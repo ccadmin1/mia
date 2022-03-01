@@ -1,7 +1,7 @@
 from datetime import datetime
 from threading import RLock
 
-from rose.database import MongoDB
+from rosedatabase import MongoDB
 
 INSERTION_LOCK = RLock()
 ANTISPAM_BANNED = set()
