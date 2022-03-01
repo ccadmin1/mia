@@ -4,12 +4,12 @@ from secrets import choice
 from pyrogram import filters
 from pyrogram.errors import ChatAdminRequired, RPCError
 from pyrogram.types import ChatMemberUpdated, InlineKeyboardMarkup, Message
-from rose.database.welcomedb import Greetings
+from database.welcomedb import Greetings
 from rose import app
 from rose.utils.dbfunctions import is_gbanned_user
 from re import sub
 from rose.core.decorators.permissions import adminsOnly
-from rose.database.gban import GBan
+from database.gban import GBan
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from rose.utils.string import (
     build_keyboard,
