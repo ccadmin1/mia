@@ -41,6 +41,16 @@ Some URLs is Shortner
 • These commands works on both pm and group.
 • These commands can be used by any group member."""
 
+    TORRENT_TXT = """Help: <b>Torrent Search</b>
+
+<b>Commands and Usage</b>:
+• /torrent or /tor : Get Your Torrent Link From Various Resource.
+
+<b>NOTE:</b>
+• IMDb should have admin privillage.
+• These commands works on both pm and group.
+• These commands can be used by any group member."""
+
     DISABLE_TXT = """Here is the help for the <b>Disabling</b> module:
 
 This allows you to disable some commonly used commands, so noone can use them. It'll also allow you to autodelete them, stopping people from bluetexting.
