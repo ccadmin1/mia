@@ -136,7 +136,7 @@ FSUB_CHANNEL = "FSUB_CHANNEL"
 MOD_LOAD = []
 MOD_NOLOAD = []
 bot_start_time = time.time()
-DB_URI = BASE_DB
+DB_URI = "BASE_DB"
 
 
 # MongoDB client
