@@ -141,7 +141,7 @@ DB_URI = "BASE_DB"
 
 # MongoDB client
 print("  》: INITIALIZING DATABASE")
-mongo_client = MongoClient(MONGO_URL)
+mongo_client = MongoClient("MONGO_URL")
 db = mongo_client.wbb
 
 
