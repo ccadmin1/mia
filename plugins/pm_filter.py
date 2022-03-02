@@ -764,56 +764,56 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('𝑀𝑎𝑛𝑢𝑒𝑙 𝐹𝑖𝑙𝑡𝑒𝑟', callback_data='manuelfilter'),
-            InlineKeyboardButton('𝐴𝑢𝑡𝑜 𝐹𝑖𝑙𝑡𝑒𝑟', callback_data='autofilter'),
-            InlineKeyboardButton('𝐶𝑜𝑛𝑛𝑒𝑐𝑡𝑖𝑜𝑛𝑠', callback_data='coct')
+            InlineKeyboardButton('Mᴀɴᴜᴇʟ Fɪʟᴛᴇʀ', callback_data='manuelfilter'),
+            InlineKeyboardButton('Aᴜᴛᴏ Fɪʟᴛᴇʀ', callback_data='autofilter'),
+            InlineKeyboardButton('Cᴏɴɴᴇᴄᴛɪᴏɴs', callback_data='coct')
             ],[
-            InlineKeyboardButton('𝑆𝑜𝑛𝑔', callback_data='songs'),
-            InlineKeyboardButton('𝐸𝑥𝑡𝑟𝑎', callback_data='extra'),
-            InlineKeyboardButton("𝑉𝑖𝑑𝑒𝑜", callback_data='video')
+            InlineKeyboardButton('Sᴏɴɢ', callback_data='songs'),
+            InlineKeyboardButton('Exᴛʀᴀ', callback_data='extra'),
+            InlineKeyboardButton("Vɪᴅᴇᴏ", callback_data='video')
             ],[
-            InlineKeyboardButton('𝑃𝑖𝑛', callback_data='pin'), 
-            InlineKeyboardButton('𝑃𝑎𝑠𝑡𝑒', callback_data='pastes'),
-            InlineKeyboardButton("𝐼𝑚𝑎𝑔𝑒", callback_data='image')
+            InlineKeyboardButton('Pɪɴ', callback_data='pin'), 
+            InlineKeyboardButton('Pᴀsᴛᴇ', callback_data='pastes'),
+            InlineKeyboardButton("Iᴍᴀɢᴇ", callback_data='image')
             ],[
-            InlineKeyboardButton('𝐹𝑢𝑛', callback_data='fun'), 
-            InlineKeyboardButton('𝐽𝑠𝑜𝑛', callback_data='son'),
-            InlineKeyboardButton('𝑇𝑇𝑆', callback_data='ttss')
+            InlineKeyboardButton('Fᴜɴ', callback_data='fun'), 
+            InlineKeyboardButton('Jsᴏɴ', callback_data='son'),
+            InlineKeyboardButton('TTS', callback_data='ttss')
             ],[
-            InlineKeyboardButton('𝑃𝑢𝑟𝑔𝑒', callback_data='purges'),
-            InlineKeyboardButton('𝑃𝑖𝑛𝑔', callback_data='pings'),
-            InlineKeyboardButton('𝑇𝑒𝑙𝑒𝑔𝑟𝑎𝑝𝒉', callback_data='tele')
+            InlineKeyboardButton('Pᴜʀɢᴇ', callback_data='purges'),
+            InlineKeyboardButton('Pɪɴɢ', callback_data='pings'),
+            InlineKeyboardButton('Tᴇʟᴇɢʀᴀᴘʜ', callback_data='tele')
             ],[
-            InlineKeyboardButton('𝑊𝒉𝑜𝑖𝑠', callback_data='whois'),
-            InlineKeyboardButton('𝑀𝑢𝑡𝑒', callback_data='restric'),
-            InlineKeyboardButton('𝐾𝑖𝑐𝑘', callback_data='zombies')
+            InlineKeyboardButton('Wʜᴏɪs', callback_data='whois'),
+            InlineKeyboardButton('Mᴜᴛᴇ', callback_data='restric'),
+            InlineKeyboardButton('Kɪᴄᴋ', callback_data='zombies')
             ],[
-            InlineKeyboardButton('𝑅𝑒𝑝𝑜𝑟𝑡', callback_data='report'),
-            InlineKeyboardButton('𝑌𝑡-𝑇𝒉𝑢𝑚𝑏', callback_data='ytthumb'),
-            InlineKeyboardButton('𝑆𝑡𝑖𝑐𝑘𝑒𝑟-𝐼𝑑', callback_data='sticker')
+            InlineKeyboardButton('Rᴇᴘᴏʀᴛ', callback_data='report'),
+            InlineKeyboardButton('Yᴛ-Tʜᴜᴍʙ', callback_data='ytthumb'),
+            InlineKeyboardButton('Sᴛɪᴄᴋᴇʀ-Iᴅ', callback_data='sticker')
             ],[
-            InlineKeyboardButton('𝐶𝑜𝑣𝑖𝑑', callback_data='corona'),
-            InlineKeyboardButton('𝐴𝑢𝑑𝑖𝑜-𝐵𝑜𝑜𝑘', callback_data='abook'),
-            InlineKeyboardButton('𝑈𝑟𝑙-𝑆𝒉𝑜𝑟𝑡', callback_data='urlshort')
+            InlineKeyboardButton(ᴏᴠɪᴅ', callback_data='corona'),
+            InlineKeyboardButton('Aᴜᴅɪᴏ-Bᴏᴏᴋ', callback_data='abook'),
+            InlineKeyboardButton('Uʀʟ-Sʜᴏʀᴛ', callback_data='urlshort')
             ],[
-            InlineKeyboardButton('𝐺-𝑇𝑟𝑎𝑛𝑠', callback_data='gtrans'),
-            InlineKeyboardButton('𝐹𝑖𝑙𝑒-𝑆𝑡𝑜𝑟𝑒', callback_data='newdata'),
-            InlineKeyboardButton('𝑆𝒉𝑎𝑟𝑒-𝑇𝑒𝑥𝑡', callback_data='sharetext'),
+            InlineKeyboardButton('G-Tʀᴀɴs', callback_data='gtrans'),
+            InlineKeyboardButton('Fɪʟᴇ-Sᴛᴏʀᴇ', callback_data='newdata'),
+            InlineKeyboardButton('Sʜᴀʀᴇ-Tᴇxᴛ', callback_data='sharetext'),
             ],[
-            InlineKeyboardButton('𝑝𝑎𝑠𝑠𝑤𝑜𝑟𝑑 𝑔𝑒𝑛', callback_data='genpassword'),
-            InlineKeyboardButton('𝐴𝑝𝑝𝑟𝑜𝑣𝑒', callback_data='approve'),
-            InlineKeyboardButton('𝐺𝑟𝑒𝑒𝑡𝑖𝑛𝑔𝑠', callback_data='welcome'),
+            InlineKeyboardButton('Pᴀssᴡᴏʀᴅ-Gᴇɴ', callback_data='genpassword'),
+            InlineKeyboardButton('Aᴘᴘʀᴏᴠᴇ', callback_data='approve'),
+            InlineKeyboardButton('Gʀᴇᴇᴛɴɢs', callback_data='welcome'),
             ],[
-            InlineKeyboardButton('𝐿𝑜𝑐𝑘𝑠', callback_data='lock'),
-            InlineKeyboardButton('Notes', callback_data='note'),
-            InlineKeyboardButton('Purge', callback_data='purge'),
+            InlineKeyboardButton('Lᴏᴄᴋs', callback_data='lock'),
+            InlineKeyboardButton('Nᴏᴛᴇs', callback_data='note'),
+            InlineKeyboardButton('Pᴜʀɢᴇ', callback_data='purge'),
             ],[
-            InlineKeyboardButton('Rules', callback_data='rule'),
-            InlineKeyboardButton('Disable', callback_data='disable'),
+            InlineKeyboardButton('Rᴜʟᴇs', callback_data='rule'),
+            InlineKeyboardButton('Uʀʟ-Sʜᴏʀᴛɴᴇʀ', callback_data='url'),
             ],[
-            InlineKeyboardButton('𝐵𝑎𝑐𝑘', callback_data='start'),
-            InlineKeyboardButton('𝑆𝑡𝑎𝑡𝑢𝑠', callback_data='stats'),
-            InlineKeyboardButton('𝐶𝑙𝑜𝑠𝑒 ✗', callback_data='close_data')
+            InlineKeyboardButton('Bᴀᴄᴋ', callback_data='start'),
+            InlineKeyboardButton('Sᴛᴀᴛᴜs', callback_data='stats'),
+            InlineKeyboardButton('Cʟᴏsᴇ ✗', callback_data='close_data')
         ]]
         await query.message.edit_text(
             text="⭗ ⭗ ⭗ ⭗ ⭗ ⭗"
@@ -921,13 +921,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-    elif query.data == "disable":
+    elif query.data == "url":
         buttons = [[
             InlineKeyboardButton('« 𝐵𝑎𝑐𝑘', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text=script.DISABLE_TXT,
+            text=script.URL_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
