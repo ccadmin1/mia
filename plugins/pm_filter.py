@@ -84,8 +84,13 @@ async def give_filter(client, message):
 @Client.on_callback_query(filters.regex(r"^next"))
 async def next_page(bot, query):
     ident, req, key, offset = query.data.split("_")
-    if int(req) not in [query.from_user.id, 0]:
-        return await query.answer("😁 𝗛𝗲𝘆 𝗙𝗿𝗶𝗲𝗻𝗱,𝗣𝗹𝗲𝗮𝘀𝗲 𝗦𝗲𝗮𝗿𝗰𝗵 𝗬𝗼𝘂𝗿𝘀𝗲𝗹𝗳.", show_alert=True)
+    ad_user = query.from_user.id
+    if int(ad_user) in ADMINS:
+        pass
+    elif int(req) not in [query.from_user.id, 0]:
+        return await query.answer(
+            "All right, but this is not yours.;\nNice Try! But, This Was Not Your Request, Request Yourself;",
+            show_alert=True)
     try:
         offset = int(offset)
     except:
@@ -136,7 +141,7 @@ async def next_page(bot, query):
     if n_offset == 0:
         btn.append(
             [InlineKeyboardButton("⏮️ Back", callback_data=f"next_{req}_{key}_{off_set}"),
-             InlineKeyboardButton(f"📃Page {round(int(offset) / 10) + 1} / {round(total / 10)}",
+             InlineKeyboardButton(f
                                   callback_data="pages")]
         )
     elif off_set is None:
