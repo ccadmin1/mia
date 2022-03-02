@@ -30,6 +30,17 @@ Hey How's the features Did you Like it <a href='tg://user?id=1951205538'><b>𝑹
 
 🔖 𝑸𝒖𝒐𝒕𝒆 : ആരും പേടിക്കേണ്ട എല്ലാവർക്കും കിട്ടും ™️"""
 
+    URL_TXT = """Help: <b>URL Shortner</b>
+Some URLs is Shortner
+<b>Commands and Usage:</b>
+• /short <code>(link)</code> - I will send the shorted links.
+<b>Example:</b>
+<code>/short https://t.me/josprojects</code>
+<b>NOTE:</b>
+• IMDb should have admin privillage.
+• These commands works on both pm and group.
+• These commands can be used by any group member."""
+
     DISABLE_TXT = """Here is the help for the <b>Disabling</b> module:
 
 This allows you to disable some commonly used commands, so noone can use them. It'll also allow you to autodelete them, stopping people from bluetexting.
