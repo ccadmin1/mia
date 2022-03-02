@@ -28,7 +28,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 from sample_config import *
 
 #fsub channel here
-uchannel= FSUB_CHANNEL
+uchannel= "FSUB_CHANNEL"
 #fsub here
 
 WELCOME_DELAY_KICK_SEC = "300"
@@ -126,7 +126,7 @@ except Exception as ef:
     sysexit(1)
 
 
-USERBOT_PREFIX = USERBOT_PREFIX
+USERBOT_PREFIX = "USERBOT_PREFIX"
 GBAN_LOG_GROUP_ID = LOG_GROUP_ID
 SUDOERS = SUDO_USERS_ID
 WELCOME_DELAY_KICK_SEC = WELCOME_DELAY_KICK_SEC
