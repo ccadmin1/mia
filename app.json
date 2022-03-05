@@ -16,8 +16,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/aadhi000/Ajax-extra-features",
-    "repository": "https://github.com/aadhi000/ajax-extra-features",
+    "website": "https://github.com/ccadmin1/mia",
+    "repository": "https://github.com/ccadmin1/mia",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
